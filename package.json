@@ -1,0 +1,12 @@
+{
+  "name": "cambridge-strategy-platform",
+  "version": "1.0.0",
+  "description": "剑桥中价策略中台",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

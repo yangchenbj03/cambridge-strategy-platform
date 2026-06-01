@@ -227,9 +227,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 <div class="top-bar-inner">
   <div class="title">剑桥中价策略平台</div>
   <div class="nav-tabs">
-    <button class="active" onclick="switchSection(0)">核心事项跟进</button>
-    <button onclick="switchSection(1)">运转机制</button>
-    <button onclick="switchSection(2)">策略中台</button>
+    <button class="active" onclick="switchSection(0)">策略中台</button>
+    <button onclick="switchSection(1)">核心事项跟进</button>
+    <button onclick="switchSection(2)">运转机制</button>
   </div>
 </div>
 </div>
@@ -247,10 +247,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 <!-- ================================================ -->
 <!-- SECTION 0: 核心事项跟进 -->
 <!-- ================================================ -->
-<div class="section active" id="sec0">
+<div class="section" id="sec1">
 
 <!-- 总览 -->
-<div class="page active" id="s0p0">
+<div class="page active" id="s1p0">
 <div class="page-hd">
   <span class="badge badge-purple">核心事项跟进</span>
   <h1>五大战场总览</h1>
@@ -274,7 +274,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 </div>
 
 <!-- 战场1 -->
-<div class="page" id="s0p1">
+<div class="page" id="s1p1">
 <div class="page-hd">
   <span class="badge badge-red">战场1</span>
   <h1>降低退费专项</h1>
@@ -337,7 +337,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 </div>
 
 <!-- 战场2 -->
-<div class="page" id="s0p2">
+<div class="page" id="s1p2">
 <div class="page-hd">
   <span class="badge badge-purple">战场2</span>
   <h1>定金人头率提升5pp</h1>
@@ -402,7 +402,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 </div>
 
 <!-- 战场3 -->
-<div class="page" id="s0p3">
+<div class="page" id="s1p3">
 <div class="page-hd">
   <span class="badge badge-purple">战场3</span>
   <h1>小高年级转率提升2.5pp</h1>
@@ -460,7 +460,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 </div>
 
 <!-- 战场4 -->
-<div class="page" id="s0p4">
+<div class="page" id="s1p4">
 <div class="page-hd">
   <span class="badge badge-amber">战场4</span>
   <h1>提升绩差老师转率</h1>
@@ -509,7 +509,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 </div>
 
 <!-- 战场5 -->
-<div class="page" id="s0p5">
+<div class="page" id="s1p5">
 <div class="page-hd">
   <span class="badge badge-amber">战场5</span>
   <h1>新老组长方差降至2.3pp</h1>
@@ -561,10 +561,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 <!-- ================================================ -->
 <!-- SECTION 1: 运转机制 -->
 <!-- ================================================ -->
-<div class="section" id="sec1">
+<div class="section" id="sec2">
 
 <!-- 总览 -->
-<div class="page active" id="s1p0">
+<div class="page active" id="s2p0">
 <div class="page-hd">
   <span class="badge badge-green">运转机制</span>
   <h1>协同部门运转机制<br>提升转率门槛</h1>
@@ -599,17 +599,17 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 </div>
 
 <div class="platform-grid">
-  <div class="platform-card" style="border-left:4px solid #ef4444;cursor:pointer;" onclick="switchSection(1);setTimeout(()=>switchPage(1),50);">
+  <div class="platform-card" style="border-left:4px solid #ef4444;cursor:pointer;" onclick="switchSection(2);setTimeout(()=>switchPage(1),50);">
     <div class="pc-icon">&#128226;</div>
     <div class="pc-title">市场协同</div>
     <div class="pc-desc">口径拉齐·异常case·报名原因反哺</div>
   </div>
-  <div class="platform-card" style="border-left:4px solid #f59e0b;cursor:pointer;" onclick="switchSection(1);setTimeout(()=>switchPage(2),50);">
+  <div class="platform-card" style="border-left:4px solid #f59e0b;cursor:pointer;" onclick="switchSection(2);setTimeout(()=>switchPage(2),50);">
     <div class="pc-icon">&#128200;</div>
     <div class="pc-title">增长协同</div>
     <div class="pc-desc">量级预估·排班·爆量预警</div>
   </div>
-  <div class="platform-card" style="border-left:4px solid #6366f1;cursor:pointer;" onclick="switchSection(1);setTimeout(()=>switchPage(3),50);">
+  <div class="platform-card" style="border-left:4px solid #6366f1;cursor:pointer;" onclick="switchSection(2);setTimeout(()=>switchPage(3),50);">
     <div class="pc-icon">&#128218;</div>
     <div class="pc-title">学科协同</div>
     <div class="pc-desc">营销内容迭代·案例·主辅联动</div>
@@ -623,7 +623,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 </div>
 
 <!-- 市场协同 -->
-<div class="page" id="s1p1">
+<div class="page" id="s2p1">
 <div class="page-hd">
   <span class="badge badge-red">市场协同</span>
   <h1>市场协同机制</h1>
@@ -672,7 +672,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 </div>
 
 <!-- 增长协同 -->
-<div class="page" id="s1p2">
+<div class="page" id="s2p2">
 <div class="page-hd">
   <span class="badge badge-amber">增长协同</span>
   <h1>增长协同机制</h1>
@@ -717,7 +717,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 </div>
 
 <!-- 学科协同 -->
-<div class="page" id="s1p3">
+<div class="page" id="s2p3">
 <div class="page-hd">
   <span class="badge badge-purple">学科协同</span>
   <h1>学科协同机制</h1>
@@ -916,10 +916,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 <!-- ================================================ -->
 <!-- SECTION 2: 策略中台 -->
 <!-- ================================================ -->
-<div class="section" id="sec2">
+<div class="section active" id="sec0">
 
 <!-- 总览 -->
-<div class="page active" id="s2p0">
+<div class="page active" id="s0p0">
 <div class="page-hd">
   <span class="badge badge-blue">策略中台</span>
   <h1>剑桥中价策略中台<br>让认知可累进，不随人走</h1>
@@ -1026,7 +1026,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 </div>
 
 <!-- 数据看板 -->
-<div class="page" id="s2p1">
+<div class="page" id="s0p1">
 <div class="page-hd">
   <span class="badge badge-blue">数据看板</span>
   <h1>数据看板</h1>
@@ -1052,7 +1052,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 </div>
 
 <!-- 用户调研 & 竞品分析 -->
-<div class="page" id="s2p2">
+<div class="page" id="s0p2">
 <div class="page-hd">
   <span class="badge badge-blue">用户调研 & 竞品分析</span>
   <h1>用户调研 & 竞品分析</h1>
@@ -1094,7 +1094,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 </div>
 
 <!-- 团队复盘 -->
-<div class="page" id="s2p3">
+<div class="page" id="s0p3">
 <div class="page-hd">
   <span class="badge badge-blue">团队复盘</span>
   <h1>团队复盘 · 认知沉淀</h1>
@@ -1127,7 +1127,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 </div>
 
 <!-- 打通壁垒 -->
-<div class="page" id="s2p4">
+<div class="page" id="s0p4">
 <div class="page-hd">
   <span class="badge badge-blue">打通中价壁垒</span>
   <h1>打通不同中价项目之间的壁垒</h1>
@@ -1148,7 +1148,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','PingFang SC'
 </div>
 
 <!-- 前端话术 -->
-<div class="page" id="s2p5">
+<div class="page" id="s0p5">
 <div class="page-hd">
   <span class="badge badge-blue">前端话术</span>
   <h1>前端话术看板</h1>
@@ -1180,16 +1180,16 @@ let currentPages = [0, 0, 0];
 
 const sectionConfig = [
   {
+    label: '策略中台',
+    tabs: ['总览', '数据看板', '用研&竞品', '团队复盘', '打通中价壁垒', '前端话术']
+  },
+  {
     label: '核心事项跟进',
     tabs: ['总览', '战场1·降退费', '战场2·定金人头率', '战场3·高年级转率', '战场4·绩差老师', '战场5·组长方差']
   },
   {
     label: '运转机制 · 提升转率门槛',
     tabs: ['总览', '市场协同', '增长协同', '学科协同']
-  },
-  {
-    label: '策略中台',
-    tabs: ['总览', '数据看板', '用研&竞品', '团队复盘', '打通中价壁垒', '前端话术']
   }
 ];
 
